@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import FallenRobot.modules.sql.blsticker_sql as sql
-from FallenRobot import LOGGER, dispatcher
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
+import AngelxRobot.modules.sql.blsticker_sql as sql
+from AngelxRobot import LOGGER, dispatcher
+from AngelxRobot.modules.connection import connected
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot.modules.helper_funcs.alternate import send_message
+from AngelxRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from AngelxRobot.modules.helper_funcs.misc import split_message
+from AngelxRobot.modules.helper_funcs.string_handling import extract_time
 
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.warns import warn
+from AngelxRobot.modules.log_channel import loggable
+from AngelxRobot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
