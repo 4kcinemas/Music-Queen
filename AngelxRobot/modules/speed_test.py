@@ -1,5 +1,5 @@
 import speedtest
-from FallenRobot import DEV_USERS, dispatcher
+from AngelxRobot import DEV_USERS, dispatcher
 from FallenRobot.modules.disable import DisableAbleCommandHandler
 from FallenRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
