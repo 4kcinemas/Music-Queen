@@ -1,6 +1,6 @@
 import wikipedia
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot import dispatcher
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
@@ -58,4 +58,4 @@ dispatcher.add_handler(WIKI_HANDLER)
 __help__ = """
 » /wiki (text) *:* Searchs about the given text on wikipedia.
 """
-__mod_name__ = "Wɪᴋɪ​"
+__mod_name__ = "Wɪᴋɪ​☃️"
