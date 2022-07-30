@@ -1,2 +1,2 @@
-worker: python3 -m ANGEL-X-ROBOT
+worker: python3 -m ANGELXROBOT
 ps:scale worker=1
