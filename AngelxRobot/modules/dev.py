@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import FallenRobot
+import AngelxRobot
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
+from AngelxRobot import dispatcher
+from AngelxRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
@@ -92,5 +92,5 @@ dispatcher.add_handler(LEAVE_HANDLER)
 dispatcher.add_handler(GITPULL_HANDLER)
 dispatcher.add_handler(RESTART_HANDLER)
 
-__mod_name__ = "Dev🦁"
+__mod_name__ = "Dev🥵"
 __handlers__ = [LEAVE_HANDLER, GITPULL_HANDLER, RESTART_HANDLER, ALLOWGROUPS_HANDLER]
