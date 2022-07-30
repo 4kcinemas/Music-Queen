@@ -1,8 +1,8 @@
-# © @AnonymousBoy1025
+# © @love-u-bobby
 import sys
 import traceback
 from functools import wraps
-from FallenRobot import pbot, SUPPORT_CHAT
+from AngelxRobot import pbot, SUPPORT_CHAT
 
 
 def split_limits(text):
