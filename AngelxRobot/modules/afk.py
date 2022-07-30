@@ -4,8 +4,8 @@ import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from FallenRobot import pbot as app
-from FallenRobot.helper_extra.afk_mongo import (
+from AngelxRobot import pbot as app
+from AngelxRobot.helper_extra.afk_mongo import (
     is_afk,
     add_afk,
     remove_afk,
