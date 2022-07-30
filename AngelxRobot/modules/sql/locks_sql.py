@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from FallenRobot.modules.sql import SESSION, BASE
+from AngelxRobot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
