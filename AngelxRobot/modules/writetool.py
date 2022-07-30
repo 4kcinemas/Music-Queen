@@ -3,10 +3,10 @@ from requests import get
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from FallenRobot import pbot as fallen, dispatcher, SUPPORT_CHAT
+from AngelxRobot import pbot as angel, dispatcher, SUPPORT_CHAT
 
 
-@fallen.on_message(filters.command("write"))
+@Angel.on_message(filters.command("write"))
 async def handwrite(_, message: Message):
     if not message.reply_to_message:
         text = message.text.split(None, 1)[1]
