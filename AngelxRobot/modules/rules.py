@@ -1,9 +1,9 @@
 from typing import Optional
 
-import FallenRobot.modules.sql.rules_sql as sql
-from FallenRobot import dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from FallenRobot.modules.helper_funcs.string_handling import markdown_parser
+import Angelxrobot.modules.sql.rules_sql as sql
+from AngelxRobot import dispatcher
+from AngelxRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from AngelxRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
@@ -161,7 +161,7 @@ __help__ = """
  ‣ `/clearrules`*:* clear the rules for this chat.
 """
 
-__mod_name__ = "Rᴜʟᴇs"
+__mod_name__ = "Rᴜʟᴇs🤫"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules)
