@@ -4,15 +4,15 @@ import textwrap
 
 import os
 
-from FallenRobot.events import register
+from AngelxRobot.events import register
 
-from FallenRobot import LOGGER, TEMP_DOWNLOAD_DIRECTORY
-
-
-from FallenRobot import telethn as bot
+from AngelxRobot import LOGGER, TEMP_DOWNLOAD_DIRECTORY
 
 
-Credit = "AnonymousBoy1025"
+from AngelxRobot import telethn as bot
+
+
+Credit = "love-u-bobby"
 
 
 @register(pattern="^/mmf ?(.*)")
