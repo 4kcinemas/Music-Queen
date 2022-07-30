@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String
-from FallenRobot.modules.sql import BASE, SESSION
+from AngelxRobot.modules.sql import BASE, SESSION
 
 #   |----------------------------------|
 #   |  Test Module by @EverythingSuckz |
