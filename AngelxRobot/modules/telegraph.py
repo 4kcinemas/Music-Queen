@@ -1,5 +1,5 @@
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from AngelxRobot.events import register
+from AngelxRobot import telethn as tbot
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
@@ -8,9 +8,9 @@ from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 
-Anonymous = "Fallen"
+BOBBY = "Angel"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=Anonymous)
+r = telegraph.create_account(short_name=Bobby)
 auth_url = r["auth_url"]
 
 
@@ -92,4 +92,4 @@ I can upload files to Telegraph
  ❍ /tt :Get Telegraph Link of Replied Text
 """
 
-__mod_name__ = "T-Gʀᴀᴘʜ"
+__mod_name__ = "T-Gʀᴀᴘʜ💹"
