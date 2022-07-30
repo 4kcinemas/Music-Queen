@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import FallenRobot.modules.sql.blacklistusers_sql as sql
-from FallenRobot import (
+import AngelxRobot.modules.sql.blacklistusers_sql as sql
+from AngelxRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from FallenRobot import (
     WOLVES,
     dispatcher,
 )
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
-from FallenRobot.modules.helper_funcs.extraction import (
+from AngelxRobot.modules.helper_funcs.chat_status import dev_plus
+from AngelxRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from FallenRobot.modules.log_channel import gloggable
+from AngelxRobot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
