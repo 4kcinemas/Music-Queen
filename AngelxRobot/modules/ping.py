@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from FallenRobot import StartTime, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import sudo_plus
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot import StartTime, dispatcher
+from AngelxRobot.modules.helper_funcs.chat_status import sudo_plus
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
