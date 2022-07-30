@@ -5,8 +5,8 @@ import os
 import heroku3
 import requests
 
-from FallenRobot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
-from FallenRobot.events import register
+from AngelxRobot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
+from AngelxRobot.events import register
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -187,7 +187,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="Fallen Bot Logs.",
+        caption="Angel Bot Logs.",
     )
 
     await asyncio.sleep(5)
