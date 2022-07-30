@@ -9,20 +9,20 @@ from datetime import datetime
 import random
 from PIL import Image
 from io import BytesIO
-from FallenRobot import telethn as bot
-from FallenRobot import telethn as tgbot
-from FallenRobot.events import register
-from FallenRobot import dispatcher
+from AngelxRobot import telethn as bot
+from AngelxRobot import telethn as tgbot
+from AngelxRobot.events import register
+from AngelxRobot import dispatcher
 
 
 edit_time = 5
-""" =======================FALLEN ROBOT====================== """
+""" =======================ANGEL ROBOT====================== """
 file1 = "https://telegra.ph/file/468a7a0bf377925dbf0fa.jpg"
 file2 = "https://telegra.ph/file/80b75c16eac2ad6df5ac3.jpg"
 file3 = "https://telegra.ph/file/59ab3595d5c4e60e0a76f.jpg"
 file4 = "https://telegra.ph/file/9b70bb1c866ce97de94dc.jpg"
 file5 = "https://telegra.ph/file/880a44ce9606f7ecec06f.jpg"
-""" =======================FALLEN ROBOT====================== """
+""" =======================ANGEL ROBOT====================== """
 
 
 @register(pattern="/myinfo")
