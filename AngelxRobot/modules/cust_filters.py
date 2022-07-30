@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from FallenRobot import dispatcher, LOGGER, DRAGONS
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from FallenRobot.modules.helper_funcs.chat_status import user_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_text
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.misc import build_keyboard_parser
-from FallenRobot.modules.helper_funcs.msg_types import get_filter_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+from AngelxRobot import dispatcher, LOGGER, DRAGONS
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from AngelxRobot.modules.helper_funcs.chat_status import user_admin
+from AngelxRobot.modules.helper_funcs.extraction import extract_text
+from AngelxRobot.modules.helper_funcs.filters import CustomFilters
+from AngelxRobot.modules.helper_funcs.misc import build_keyboard_parser
+from AngelxRobot.modules.helper_funcs.msg_types import get_filter_type
+from AngelxRobot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from FallenRobot.modules.sql import cust_filters_sql as sql
+from AngelxRobot.modules.sql import cust_filters_sql as sql
 
-from FallenRobot.modules.connection import connected
+from AngelxRobot.modules.connection import connected
 
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
+from AngelxRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
@@ -639,7 +639,7 @@ Check ❍ /markdownhelp to know more!
 
 """
 
-__mod_name__ = "Fɪʟᴛᴇʀs"
+__mod_name__ = "Fɪʟᴛᴇʀs🤡"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
