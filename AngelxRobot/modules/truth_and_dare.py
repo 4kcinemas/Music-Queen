@@ -1,9 +1,9 @@
 import html
 import random
-import FallenRobot.modules.truth_and_dare_string as truth_and_dare_string
-from FallenRobot import dispatcher
+import AngelxRobot.modules.truth_and_dare_string as truth_and_dare_string
+from AngelxRobot import dispatcher
 from telegram import ParseMode, Update, Bot
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 
@@ -28,4 +28,4 @@ __help__ = """
  ❍ /truth *:* Sends a random truth string.
  ❍ /dare *:* Sends a random dare string.
 """
-__mod_name__ = "Tʀᴜᴛʜ-Dᴀʀᴇ"
+__mod_name__ = "Tʀᴜᴛʜ-Dᴀʀᴇ🌝"
