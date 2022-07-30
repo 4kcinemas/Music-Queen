@@ -1,6 +1,6 @@
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import typing_action
+from AngelxRobot import dispatcher
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot.modules.helper_funcs.alternate import typing_action
 from telegram import ParseMode
 from telegram.ext import run_async
 
