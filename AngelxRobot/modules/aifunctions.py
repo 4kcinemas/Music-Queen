@@ -1,18 +1,18 @@
 # 🙈 Give me ⭐️ before kanging code
-# © @AnonymousBoy1025 🌚
+# © @love-u-bobby 🌚
 
 import requests
 
 url = "https://iamai.p.rapidapi.com/ask"
-from FallenRobot import telethn, OWNER_ID
-from FallenRobot.events import register
+from AngelxRobot import telethn, OWNER_ID
+from AngelxRobot.events import register
 from telethon import events
 from telethon import types
 from telethon.tl import functions
 import asyncio, os
 
 
-@register(pattern="Fallen (.*)")
+@register(pattern="Angel (.*)")
 async def hmm(event):
     test = event.pattern_match.group(1)
     r = ('\n    "consent": true,\n    "ip": "::1",\n    "question": "{}"\n').format(
