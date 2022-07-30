@@ -4,7 +4,7 @@
 
 # ANGEL X ROBOT
 
-I ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.@cutiecat_robot  𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢 : - [ʙᴏʙʙʏ](https://t.me/love_u_bobby)
+I ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.  𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢 : - [ʙᴏʙʙʏ](https://t.me/love_u_bobby)
 
 
 ###  Infomation
