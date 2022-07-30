@@ -1,7 +1,7 @@
 import random
 import asyncio
 from pyrogram import filters
-from FallenRobot import pbot as FallenRobot
+from AngelxRobot import pbot as AngelxRobot
 
 
 ROMANTIC_STRINGS = [
@@ -14,7 +14,7 @@ ROMANTIC_STRINGS = [
 ]
 
 
-@FallenRobot.on_message(filters.command("shayari"))
+@AngelxRobot.on_message(filters.command("shayari"))
 async def lel(bot, message):
     ran = random.choice(ROMANTIC_STRINGS)
     await bot.send_chat_action(message.chat.id, "typing")
