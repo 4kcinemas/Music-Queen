@@ -1,6 +1,6 @@
 import io
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from AngelxRobot.events import register
+from AngelxRobot import telethn as tbot
 from telethon import types
 from telethon import events
 from telethon.tl import functions
