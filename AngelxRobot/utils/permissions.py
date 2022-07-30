@@ -1,9 +1,9 @@
 from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
-from FallenRobot import pbot as app
-from FallenRobot import DEV_USERS
-from FallenRobot.utils.adminperms import member_permissions
+from AngelxRobot import pbot as app
+from AngelxRobot import DEV_USERS
+from AngelxRobot.utils.adminperms import member_permissions
 
 SUDO = DEV_USERS
 
