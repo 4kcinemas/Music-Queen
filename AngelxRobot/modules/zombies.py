@@ -6,7 +6,7 @@ from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins
 
-from FallenRobot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
+from AngelxRobot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
 
 # =================== CONSTANT ===================
 
@@ -102,6 +102,7 @@ __help__ = """
 *Remove Deleted Accounts*
  ❍ /zombies *:* Starts searching for deleted accounts in the group.
  ❍ /zombies clean *:* Removes the deleted accounts from the group.
+➻ ᴘᴏᴡᴇʀᴅ  ʙʏ ©@comrade_robotz ™
 """
 
 
