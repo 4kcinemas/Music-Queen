@@ -1,8 +1,8 @@
 import html
 from typing import Optional
 
-from FallenRobot import LOGGER, TIGERS, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import (
+from AngelxRobot import LOGGER, TIGERS, dispatcher
+from AngelxRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -13,8 +13,8 @@ from FallenRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.log_channel import loggable
+from AngelxRobot.modules.helper_funcs.string_handling import extract_time
+from AngelxRobot.modules.log_channel import loggable
 from telegram import Bot, Chat, ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
@@ -254,5 +254,5 @@ dispatcher.add_handler(MUTE_HANDLER)
 dispatcher.add_handler(UNMUTE_HANDLER)
 dispatcher.add_handler(TEMPMUTE_HANDLER)
 
-__mod_name__ = "Mᴜᴛᴇ​"
+__mod_name__ = "Mᴜᴛᴇ🔇​"
 __handlers__ = [MUTE_HANDLER, UNMUTE_HANDLER, TEMPMUTE_HANDLER]
