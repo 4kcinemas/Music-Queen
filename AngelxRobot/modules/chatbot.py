@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import FallenRobot.modules.sql.chatbot_sql as sql
+import AngelxRobot.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -30,10 +30,10 @@ from telegram.ext import (
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from FallenRobot import dispatcher, updater, SUPPORT_CHAT
-from FallenRobot.modules.log_channel import gloggable
+from AngelxRobot.modules.helper_funcs.filters import CustomFilters
+from AngelxRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from AngelxRobot import dispatcher, updater, SUPPORT_CHAT
+from AngelxRobot.modules.log_channel import gloggable
 
 
 @run_async
@@ -148,7 +148,7 @@ def chatbot(update: Update, context: CallbackContext):
 
 def list_all_chats(update: Update, context: CallbackContext):
     chats = sql.get_all_kuki_chats()
-    text = "<b>Fallen Enabled Chats</b>\n"
+    text = "<b>Angel Enabled Chats</b>\n"
     for chat in chats:
         try:
             x = context.bot.get_chat(int(*chat))
