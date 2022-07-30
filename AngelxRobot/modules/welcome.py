@@ -5,9 +5,9 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import FallenRobot.modules.sql.welcome_sql as sql
-import FallenRobot
-from FallenRobot import (
+import AngelxRobot.modules.sql.welcome_sql as sql
+import AngelxRobot
+from AngelxRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -18,18 +18,18 @@ from FallenRobot import (
     dispatcher,
     JOIN_LOGGER,
 )
-from FallenRobot.modules.helper_funcs.chat_status import (
+from AngelxRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from FallenRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from FallenRobot.modules.helper_funcs.msg_types import get_welcome_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+from AngelxRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from AngelxRobot.modules.helper_funcs.msg_types import get_welcome_type
+from AngelxRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql.global_bans_sql import is_user_gbanned
+from AngelxRobot.modules.log_channel import loggable
+from AngelxRobot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
