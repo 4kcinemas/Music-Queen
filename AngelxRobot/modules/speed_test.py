@@ -1,7 +1,7 @@
 import speedtest
 from AngelxRobot import DEV_USERS, dispatcher
 from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
+from AngelxRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
@@ -63,6 +63,6 @@ __help__ = """
 » /speedtest *:* Runs a speedtest and check the server speed.
 """
 
-__mod_name__ = "SᴘᴇᴇᴅTᴇsᴛ​"
+__mod_name__ = "SᴘᴇᴇᴅTᴇsᴛ​🏍️"
 __command_list__ = ["speedtest"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
