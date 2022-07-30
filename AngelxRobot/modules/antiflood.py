@@ -4,15 +4,15 @@ import re
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from FallenRobot import TIGERS, WOLVES, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import (
+from AngelxRobot import TIGERS, WOLVES, dispatcher
+from AngelxRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import antiflood_sql as sql
+from AngelxRobot.modules.log_channel import loggable
+from AngelxRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.sql.approve_sql import is_approved
+from AngelxRobot.modules.helper_funcs.string_handling import extract_time
+from AngelxRobot.modules.connection import connected
+from AngelxRobot.modules.helper_funcs.alternate import send_message
+from AngelxRobot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
