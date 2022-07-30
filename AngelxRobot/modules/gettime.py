@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from FallenRobot import TIME_API_KEY, dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot import TIME_API_KEY, dispatcher
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
@@ -103,6 +103,6 @@ TIME_HANDLER = DisableAbleCommandHandler("time", gettime)
 
 dispatcher.add_handler(TIME_HANDLER)
 
-__mod_name__ = "Tɪᴍᴇ"
+__mod_name__ = "Tɪᴍᴇ⌚"
 __command_list__ = ["time"]
 __handlers__ = [TIME_HANDLER]
