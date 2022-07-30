@@ -10,9 +10,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from FallenRobot import DRAGONS as SUDO_USERS
-from FallenRobot import pbot
-from FallenRobot.modules.sql import forceSubscribe_sql as sql
+from AngelxRobot import DRAGONS as SUDO_USERS
+from AngelxRobot import pbot
+from AngelxRobot.modules.sql import forceSubscribe_sql as sql
 
 
 logging.basicConfig(level=logging.INFO)
