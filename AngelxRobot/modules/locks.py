@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import FallenRobot.modules.sql.locks_sql as sql
-from FallenRobot import dispatcher, DRAGONS, LOGGER
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import (
+import AngelxRobot.modules.sql.locks_sql as sql
+from AngelxRobot import dispatcher, DRAGONS, LOGGER
+from AngelxRobot.modules.disable import DisableAbleCommandHandler
+from AngelxRobot.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.sql.approve_sql import is_approved
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
+from AngelxRobot.modules.log_channel import loggable
+from AngelxRobot.modules.connection import connected
+from AngelxRobot.modules.sql.approve_sql import is_approved
+from AngelxRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
@@ -585,7 +585,7 @@ Locking bots will stop non-admins from adding bots to the chat.
  • Unlocking permission *pin* will allow members (non-admins) to pin a message in a group
 """
 
-__mod_name__ = "Lᴏᴄᴋs"
+__mod_name__ = "Lᴏᴄᴋs🔒"
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes)
 LOCK_HANDLER = CommandHandler("lock", lock, pass_args=True)  # , filters=Filters.group)
