@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/COMRADE_ROBOTZ"),
     ],
     [
-        InlineKeyboardButton(text="👑 ᴅᴇᴠᴇʟᴏᴘᴇʀ 👑", url=f"https://t.me/about_bobby"),
+        InlineKeyboardButton(text="👑 ᴅᴇᴠᴇʟᴏᴘᴇʀ 👑", url=f"https://t.me/love_you_bobby"),
         InlineKeyboardButton(text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=f"https://t.me/COMRADE_NETWORK"),
     ],
 ]
@@ -104,7 +104,7 @@ AngelxRobot_IMG = "https://telegra.ph/file/c8f4ed4191c9be1505812.jpg"
 HELP_STRINGS = f"""
 𝗔𝗡𝗚𝗘𝗟 𝗥𝗢𝗕𝗢𝗧 *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @team_comradex*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*"""
 
-DONATE_STRING = """[🌟𝗕𝗢𝗕𝗕𝗬🌟](https://t.me/love_u_bobby)"""
+DONATE_STRING = """[🌟𝗕𝗢𝗕𝗕𝗬🌟](https://t.me/love_you_bobby)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,11 +373,11 @@ def Angel_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/about_bobby"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/love_you_bobby"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍʀᴀᴅᴇ",
-                            url="https://t.me/tamil_comrade",
+                            url="https://t.me/team_comradex",
                         ),
                     ],
                     [
@@ -403,7 +403,7 @@ def Angel_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/about_bobby"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/love_you_bobby"
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ", url="https://github.com/love-u-bobby"
